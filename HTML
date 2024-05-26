@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denise Pohlmann - Kreative Welten</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            padding: 0.5em 1em;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        section {
+            padding: 2em;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2em;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 1em;
+        }
+        .card-content h3 {
+            margin: 0 0 0.5em 0;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Denise Pohlmann - Kreative Welten</h1>
+    </header>
+    <nav>
+        <a href="#meerwasseraquaristik">Meerwasseraquaristik</a>
+        <a href="#garten">Pflanzen & Garten</a>
+        <a href="#tattoos">Tattoos</a>
+        <a href="#3d-druck">3D Druck</a>
+        <a href="#haus">Haus & Einrichtung</a>
+    </nav>
+    <section id="meerwasseraquaristik">
+        <h2>Meerwasseraquaristik</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://example.com/meerwasseraquarium.jpg" alt="Meerwasseraquarium">
+                <div class="card-content">
+                    <h3>Faszinierende Unterwasserwelten</h3>
+                    <p>Erfahre mehr über die Pflege und Gestaltung von Meerwasseraquarien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="garten">
+        <h2>Pflanzen & Garten</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://example.com/garten.jpg" alt="Garten">
+                <div class="card-content">
+                    <h3>Grüne Oasen</h3>
+                    <p>Tipps und Tricks zur Gartenpflege und kreativen Pflanzengestaltung.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tattoos">
+        <h2>Tattoos</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://example.com/tattoo.jpg" alt="Tattoo">
+                <div class="card-content">
+                    <h3>Körperkunst</h3>
+                    <p>Inspirationen und Geschichten rund um Tattoos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="3d-druck">
+        <h2>3D Druck</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://example.com/3d-druck.jpg" alt="3D Druck">
+                <div class="card-content">
+                    <h3>Technologie trifft Kreativität</h3>
+                    <p>Alles über 3D Druck und wie du deine eigenen Projekte umsetzen kannst.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="haus">
+        <h2>Haus & Einrichtung</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://example.com/haus.jpg" alt="Haus">
+                <div class="card-content">
+                    <h3>Modernes Wohnen</h3>
+                    <p>Ideen und Inspirationen zur Hausmodernisierung und Einrichtung.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2024 Denise Pohlmann</p>
+    </footer>
+</body>
+</html>
